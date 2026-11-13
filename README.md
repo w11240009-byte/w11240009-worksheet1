@@ -1,4 +1,4 @@
-# UFCFWK-15-2 Worksheet 1: An echo of Assembler
+# UFCFWK-15-2 Worksheet 1
 
 Build everything with `make` in the repo root, clean with `make clean`.
 Programs are 32-bit NASM assembly called from a small C driver (`src/driver.c`), which provides `main` and calls `asm_main`. This needs `nasm` and 32-bit gcc support (`sudo apt install gcc-multilib`).
